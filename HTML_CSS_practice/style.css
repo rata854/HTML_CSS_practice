@@ -25,7 +25,7 @@ a {
   color: #FAFAFA;
 }
 nav {
-  margin: 0 0 0 auto;ー
+  margin: 0 0 0 auto;
 }
 ul {
   list-style: none;
@@ -57,18 +57,12 @@ li {
 }
 
 /* ここからメイン */
-main {
-  height: 100%;
-  width: 100%;
-}
 /* ここからポートフォリオ */
 #portfolio {
-  height: 100%;
   width: 100%;
   background-color: #ECEFF1;
 }
 .portfolio-content {
-  height: 100%;
   width: 920px;
   padding: 90px 0 90px 0;
   margin: 0 auto;
@@ -115,11 +109,9 @@ main {
 
 /* ここからフィーチャー */
 #feature {
-  height: 100%;
   width: 100%;
 }
 .feature-content {
-  height: 100%;
   width: 980px;
   padding: 90px 0 90px 0;
   margin: 0 auto;
@@ -152,7 +144,76 @@ main {
   font-size: 16px;
   color: #000000;
 }
-<i class="fas fa-code"></i>
+
+/* ここからプロフィール */
+#profile {
+  width: 100%;
+  background-color: #ECEFF1;
+}
+.profile-content {
+  width: 1024px;
+  padding: 90px 0 90px 0;
+  margin: 0 auto;
+  text-align: center;
+}
+.profile-box {
+  display: flex;
+}
+.profile-image {
+  width: 512px;
+}
+.profile-image > img {
+  width: 250px;
+  height: 250px;
+  border-radius: 125px;
+}
+.profile-text {
+  width: 512px;
+}
+.profile-about {
+  text-align: left;
+}
+.profile-about > h4 {
+  font-size: 20px;
+  color: #000000;
+}
+.profile-about > p {
+  font-size: 16px;
+  color: #000000;
+  margin-top: 5px;
+}
+.profile-skills {
+  margin-top: 20px;
+}
+
+/* ここからコンタクト */
+#contact {
+  width: 100%;
+}
+.contact-content {
+  width: 800px;
+  padding: 90px 0 90px 0;
+  margin: 0 auto;
+  text-align: center;
+}
+.contact-box {
+  display: flex;
+}
+.contact-form {
+  width: 400px;
+  height: 200px;
+  background-color: aqua;
+}
+.contact-sns {
+  width: 400px;
+  height: 200px;
+  background-color: #EC715F;
+}
+
+
+
+
+
 
 footer {
   width: 100%;
